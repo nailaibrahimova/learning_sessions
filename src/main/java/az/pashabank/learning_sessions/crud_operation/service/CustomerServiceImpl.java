@@ -70,7 +70,7 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Scheduled(fixedRate = 5000)
-    public void addCustomerInFiveSecond() {
+    public void addRandomCustomer() {
         logger.info("Adding randomly customers to the list");
         CustomerDTO customer = new CustomerDTO();
 

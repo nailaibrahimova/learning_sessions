@@ -1,7 +1,6 @@
 package az.pashabank.learning_sessions.crud_operation.controller;
 
 import az.pashabank.learning_sessions.crud_operation.model.CustomerDTO;
-import az.pashabank.learning_sessions.crud_operation.model.ResponseDTO;
 import az.pashabank.learning_sessions.crud_operation.service.CustomerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
